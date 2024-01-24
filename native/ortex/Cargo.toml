@@ -11,7 +11,7 @@ crate-type = ["cdylib"]
 
 [dependencies]
 rustler = "0.29.0"
-ort = {version = "1.14.6", default-features = false, features = ["half", "copy-dylibs"]}
+ort = {version = "1.14.6", default-features = false, features = ["half", "copy-dylibs", "load-dynamic"]}
 ndarray = "0.15.6"
 half = "2.2.1"
 tracing-subscriber = { version = "0.3", features = [ "env-filter", "fmt" ] }
